@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'ap-south-1'
-        AWS_ACCOUNT_ID = '997752498626
+        AWS_ACCOUNT_ID = '997752498626'
         ECR_REPOSITORY = 'devops-cicd'
         IMAGE_NAME = 'devops-app'
         ECR_REGISTRY = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
