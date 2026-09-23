@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "DevOps Pipeline Running Successfully."
+    return "Version 2 - Automated DevOps Deployment."
 
 @app.route("/status")
 def status():
